@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -30,6 +31,8 @@
       </p>
       <button class="home__button">Contact Us</button>
     </header>
+
+    <!-- Main -->
 
     <main>
       <section id="about">
@@ -64,11 +67,24 @@
       <section id="contact">
         <h2 class="contact__title">Contact</h2>
         <form class="contact__form">
-          <input type="text" />
-          <input type="email" />
-          <textarea></textarea>
+          <label>Name</label>
+          <input type="text" class="contact__form__input" />
+          <label>Email</label>
+          <input type="email" class="contact__form_input" />
+          <label>Message</label>
+          <textarea class="contact__form__textarea"></textarea>
+          <button class="contact__form__button">Send</button>
         </form>
       </section>
     </main>
+
+    <!-- Footer -->
+
+    <footer>
+      <a href="#home" class="footer__link">Home</a>
+      <a href="#about" class="footer__link">About</a>
+      <a href="#menu" class="footer__link">Menu</a>
+      <a href="#contact" class="footer__link">Contact</a>
+    </footer>
   </body>
 </html>
