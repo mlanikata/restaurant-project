@@ -240,7 +240,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .nav__link:not(:last_child) {
+  .nav__link:not(:last-child) {
     display: none;
   }
 
